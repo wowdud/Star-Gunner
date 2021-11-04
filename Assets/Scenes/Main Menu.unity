@@ -4829,7 +4829,7 @@ GameObject:
   - component: {fileID: 963032203}
   - component: {fileID: 963032202}
   m_Layer: 5
-  m_Name: Rocket Credit
+  m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4851,8 +4851,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000019073, y: 147}
-  m_SizeDelta: {x: 981.8578, y: 28.2748}
+  m_AnchoredPosition: {x: -2.1587, y: -48.7158}
+  m_SizeDelta: {x: 977.5404, y: 419.7055}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963032202
 MonoBehaviour:
@@ -4887,8 +4887,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rockets - AstroMenace Artwork ver 1.2 Assets Copyright (c) 2006-2007 Michael
+  m_Text: 'Rockets - AstroMenace Artwork ver 1.2 Assets Copyright (c) 2006-2007 Michael
     Kurinnoy, Viewizard
+
+
+    Ships: Made by Viktor Hahn (Viktor.Hahn@web.de), licensed
+    under the Creative Commons Attribution 3.0 Unported License.'
 --- !u!222 &963032203
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5055,7 +5059,10 @@ MonoBehaviour:
     1.02 - Added combo, nerfed base point gain, nerfed main gun a little.
 
     Version
-    1.03 - Gave rockets a texture, added credits tab.'
+    1.03 - Gave rockets a texture, added credits tab.
+
+    Version 1.04 - Added different
+    ships to purchase with differing stats!'
 --- !u!222 &988167715
 CanvasRenderer:
   m_ObjectHideFlags: 0
