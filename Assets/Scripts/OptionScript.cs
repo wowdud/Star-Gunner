@@ -12,16 +12,10 @@ public class OptionScript : MonoBehaviour
     public Toggle fullscreenToggle;
     public Text currentRes;
 
+
     void Start()
     {
-        if (Screen.fullScreen)
-        {
-            fullscreenToggle.isOn = false;
-        }
-        else
-        {
-            fullscreenToggle.isOn = true;
-        }
+        
         //resolutionSelect.ClearOptions();
         resolutionSelect.onValueChanged.AddListener(delegate { Screen.SetResolution(resolutions[resolutionSelect.value].width, resolutions[resolutionSelect.value].height, false); });
 

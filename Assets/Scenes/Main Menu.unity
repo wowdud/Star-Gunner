@@ -5062,7 +5062,10 @@ MonoBehaviour:
     1.03 - Gave rockets a texture, added credits tab.
 
     Version 1.04 - Added different
-    ships to purchase with differing stats!'
+    ships to purchase with differing stats!
+
+    Version 1.05 - Added particle effects
+    and post-processing stuff!'
 --- !u!222 &988167715
 CanvasRenderer:
   m_ObjectHideFlags: 0
